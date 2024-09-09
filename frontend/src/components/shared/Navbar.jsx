@@ -32,7 +32,7 @@ const Navbar = () => {
         <header className="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           {/* <MountainIcon className="h-6 w-6" /> */}
-          <span className="text-lg font-bold">Hire Hub</span>
+          <span className="text-lg font-bold">Job Bridge</span>
         </a>
         <nav className="flex items-center gap-4">
           <a href="/" className="hover:underline">Home</a>
