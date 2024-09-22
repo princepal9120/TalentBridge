@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://talentbridge-1yxp.onrender.com',
+    origin: ['http://localhost:8000', 'https://talentbridge-1yxp.onrender.com'],
     credentials:true
 }
 
